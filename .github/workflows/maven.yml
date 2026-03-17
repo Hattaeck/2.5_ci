@@ -13,4 +13,5 @@ jobs: # какие задачи делаем
         with:
           java-version: 11 # версия для установки
       - name: Build with Maven
+        working-directory: statistics
         run: mvn -B -e verify # запускаем Maven
