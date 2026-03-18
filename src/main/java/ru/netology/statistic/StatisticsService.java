@@ -2,7 +2,7 @@ package ru.netology.statistic;
 
 public class StatisticsService {
   /**
-   * Calculate index of max income
+   * Calculate, index of max income
    *
    * @param incomes - array of incomes
    * @return - index of first max value
